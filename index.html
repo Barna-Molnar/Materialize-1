@@ -169,14 +169,40 @@
             </div>
         </div>
     </section>
-    <div class="parallax-container">
+    <div class="parallax-container scrollspy" id="projects">
         <div class="parallax "><img class="responsive-img" src="img/octavian-dan-b21Ty33CqVs-unsplash.jpg"></div>
     </div>
-    <div class="section white">
-        <div class="row container">
-            <h2 class="header">Parallax</h2>
-            <p class="grey-text text-darken-3 lighten-3">Parallax is an effect where the background content or image in this case, is moved at a different speed than the foreground content while scrolling.</p>
+    <div class="section grey darken-4">
+        <div class="row " id="padding-50">
+            <h2 class="header center grey-text text-lighten-3">First Project</h2>
+            <div class="col s12 m3"></div>
+            <div class="col s12 m6 ">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="img/xps-8pb7Hq539Zw-unsplash.jpg">
+                    </div>
+                    <div class="card-content grey darken-3">
+                        <span class="card-title activator grey-text text-lighten-4">Projekt description<i class="material-icons right">format_list_bulleted</i></span>
+                        <p class="white-text"><a class="grey-text text-lighten-3" href="#">This is a link</a></p>
+                    </div>
+                    <div class="card-reveal grey darken-3">
+                        <span class="card-title grey-text text-lighten-2 center">Description<i class="material-icons right">close</i></span>
+                        <Here class="grey-text text-lighten-1">
+                            <p>
+                                <ol>
+                                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, quibusdam!</li>
+                                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, quibusdam!</li>
+                                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, quibusdam!</li>
+                                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, quibusdam!</li>
+                                </ol>
+
+                            </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m2"></div>
         </div>
+
     </div>
     <div class="parallax-container">
         <div class="parallax"><img class="responsive-img" src="img/octavian-dan-b21Ty33CqVs-unsplash.jpg"></div>
@@ -223,6 +249,8 @@
                 indicators: false,
                 height: 900
             });
+            var scrollspy = document.querySelectorAll('.scrollspy');
+            var instances = M.ScrollSpy.init(scrollspy, {});
 
         });
     </script>
