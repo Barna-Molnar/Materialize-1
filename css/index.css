@@ -1,7 +1,24 @@
+html {
+    font-size: 18px !important;
+}
+
 .section-nav {
     font-size: 50px !important;
 }
 
-.csshook ul li a {
-    font-size: 2rem !important;
+#about {
+    padding: 50px !important;
+}
+
+#bigger ul a {
+    font-size: 20px !important;
+}
+
+.naw-wrapper a {
+    font-size: 50px !important;
+}
+
+.card div ol li {
+    font-size: 30px !important;
+    margin-top: 10px !important;
 }
