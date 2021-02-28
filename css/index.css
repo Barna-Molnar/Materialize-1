@@ -22,7 +22,23 @@ html {
     font-size: 50px !important;
 }
 
+.card .card-reveal {
+    border: 1px solid rgb(145, 145, 145);
+}
+
 .card div ol li {
     font-size: 30px !important;
     margin-top: 10px !important;
+}
+
+#section-project {
+    background-color: rgb(32, 31, 31) !important;
+}
+
+#footer-links {
+    display: flex !important;
+}
+
+#footer-links li:not(:first-child) {
+    margin-left: 30px;
 }
